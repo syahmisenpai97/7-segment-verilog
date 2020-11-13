@@ -53,10 +53,10 @@ case (bcd[7:4])
 endcase
 
 
-if(bcd[7:4]>=4'd3 && bcd[3:0]>4'd0) begin
-LED_0<=0;
-LED_1<=0;
-end
+//if(bcd[7:4]>=4'd3 && bcd[3:0]>4'd0) begin
+//LED_0<=0;
+//LED_1<=0;
+//end
 end
 
 
